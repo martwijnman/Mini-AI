@@ -33,3 +33,7 @@ while isRunning == True:
 
 
 
+    if UI == "What is th time today?" or UI == "What is it today?":
+        currentTime = datetime.datetime.now()
+        formattedTime = currentTime.strftime("%H:%M:%S")
+        print(f"the current time is {formattedTime}")
