@@ -10,7 +10,7 @@ while isRunning == True:
         elif UI == "bad" or UI == "I'm not very well":
             UI = input("what is wrong?")
 
-    if UI == "Can you calcutlaate something for me?" or UI == "sum" or "Sum":
+    if UI == "Can you calcutlaate something for me?" or UI == "sum" or UI == "calculate" or UI == "Sum":
         # number one
         x = input("Take number one: ")
         xValue = int(x)
