@@ -1,7 +1,7 @@
 # chatbot
 isRunning = True
 while isRunning == True:
-    UI = input("Hello, I'm chatbot, ask anything wht you ever want: ")
+    UI = input("Hello, I'm chatbot, ask anything what you ever want: ")
 
     if UI == "Hello":
         UI = input("Hello, how are you?")
@@ -47,3 +47,5 @@ while isRunning == True:
         currentDate = datetime.datetime.now()
         formattedDate = currentTime.strftime("%Y/%m/%d")
         print(f"the current moment is {formattedTime} {formattedDate}")
+    
+    
