@@ -37,3 +37,13 @@ while isRunning == True:
         currentTime = datetime.datetime.now()
         formattedTime = currentTime.strftime("%H:%M:%S")
         print(f"the current time is {formattedTime}")
+    elif x == "time":
+        currentDate = datetime.datetime.now()
+        formattedDate = currentTime.strftime("%Y/%m/%d")
+        print(f"the current date is {formattedDate}")
+    elif x == "both":
+        currentTime = datetime.datetime.now()
+        formattedTime = currentTime.strftime("%H:%M:%S")
+        currentDate = datetime.datetime.now()
+        formattedDate = currentTime.strftime("%Y/%m/%d")
+        print(f"the current moment is {formattedTime} {formattedDate}")
