@@ -27,9 +27,9 @@ while isRunning == True:
         elif changingToCalculate == "/":
             print(xValue / yValue)
         elif changingToCalculate == "+":
-            print(xValue - yValue)
+            print(xValue + yValue)
         elif changingToCalculate == "*" or changingToCalculate == "x" or changingToCalculate == "X":
-            print(xValue - yValue)
+            print(xValue * yValue)
 
 
 
